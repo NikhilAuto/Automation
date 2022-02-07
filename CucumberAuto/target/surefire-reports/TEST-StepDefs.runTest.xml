@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="StepDefs.runTest" time="4.997" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Nikhil\eclipse-workspace\CucumberAuto"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Nikhil\eclipse-workspace\CucumberAuto"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nikhil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Nikhil\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5519130949418139335.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\Nikhil\Desktop\CO\CampusOrbitRadix\flutter_2.2.0\flutter\bin;C:\Users\Nikhil\AppData\Local\Microsoft\WindowsApps;C:\Users\Nikhil\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.1\bin;;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\Nikhil\Desktop\CO\CampusOrbitRadix\flutter_2.2.0\flutter\bin;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Nikhil"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Nikhil"/>
+    <property name="java.class.path" value="C:\Users\Nikhil\Downloads\eclipse-java-2020-09-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Nikhil\eclipse-workspace\CucumberAuto\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Login page scenario list." name="Verify user is able to login using valid credentials." time="4.997">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at StepDefs.loginDefs.user_is_navigated_to_home_page(loginDefs.java:57)
+	at ✽.user is navigated to home page(file:///C:/Users/Nikhil/eclipse-workspace/CucumberAuto/src/test/resources/Features/login.feature:9)
+</error>
+    <system-out>INSIDE STEP 1
+INSIDE STEP 2
+INSIDE STEP 3
+INSIDE STEP 4
+</system-out>
+    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 62532
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2021 1:19:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 26, 2021 1:19:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 96, so returning the closest version found: 95
+Nov 26, 2021 1:19:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 96 of 95
+</system-err>
+  </testcase>
+</testsuite>

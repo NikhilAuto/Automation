@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T22:13:32 IST" name="Default suite" finished-at="2022-01-31T22:14:38 IST" duration-ms="66288">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T22:13:32 IST" name="Default test" finished-at="2022-01-31T22:14:38 IST" duration-ms="66288">
+      <class name="StepDefs.testngDemo">
+        <test-method is-config="true" signature="entry()[pri:0, instance:StepDefs.testngDemo@7db12bb6]" started-at="2022-01-31T22:13:32 IST" name="entry" finished-at="2022-01-31T22:14:37 IST" duration-ms="65052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entry -->
+        <test-method signature="maintest()[pri:0, instance:StepDefs.testngDemo@7db12bb6]" started-at="2022-01-31T22:14:37 IST" name="maintest" finished-at="2022-01-31T22:14:37 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+        <test-method is-config="true" signature="out()[pri:0, instance:StepDefs.testngDemo@7db12bb6]" started-at="2022-01-31T22:14:37 IST" name="out" finished-at="2022-01-31T22:14:38 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- out -->
+      </class> <!-- StepDefs.testngDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

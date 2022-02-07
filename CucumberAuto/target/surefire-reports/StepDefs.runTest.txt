@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: StepDefs.runTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.611 sec <<< FAILURE!
+Verify user is able to login using valid credentials.(Login page scenario list.)  Time elapsed: 4.997 sec  <<< ERROR!
+java.lang.NullPointerException
+	at StepDefs.loginDefs.user_is_navigated_to_home_page(loginDefs.java:57)
+	at ?.user is navigated to home page(file:///C:/Users/Nikhil/eclipse-workspace/CucumberAuto/src/test/resources/Features/login.feature:9)
+
