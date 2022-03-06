@@ -8,8 +8,8 @@ pipeline{
 					/*(maven: 'maven_local'){*/
 					bat """ 
 					cd /d "CucumberAuto"
-					'dir'
-					'mvn clean install'
+					dir
+					mvn clean install
 					"""				
 					/*}*/
 /*					stage('Test Stage'){
