@@ -6,8 +6,8 @@ pipeline{
 
 					steps {
 					/*(maven: 'maven_local'){*/
-					sh 'pwd'
-					sh 'mvn clean install'
+					bat 'dir'
+					bat 'mvn clean install'
 					/*}*/
 /*					stage('Test Stage'){
 
