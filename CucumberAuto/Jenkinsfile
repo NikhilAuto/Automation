@@ -1,11 +1,12 @@
 pipeline{
 			agent any
+			tools { maven 'maven_local' jdk 'JAVA_HOME' }
 			stages {
 					stage('Compile Stage'){
 
 					steps {
 					
-					withMaven(maven: 'maven_3_5_0'){
+					withMaven(maven: 'maven_local'){
 					sh 'mvn clean install'
 					
 					}
@@ -13,7 +14,7 @@ pipeline{
 
 					steps {
 					
-					withMaven(maven: 'maven_3_5_0'){
+					withMaven(maven: 'maven_local'){
 					sh 'mvn test'
 					
 					}
@@ -21,7 +22,7 @@ pipeline{
 
 					steps {
 					
-					withMaven(maven: 'maven_3_5_0'){
+					withMaven(maven: 'maven_local'){
 					sh 'mvn clean install'
 					
 					}
