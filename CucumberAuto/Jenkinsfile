@@ -6,9 +6,11 @@ pipeline{
 
 					steps {
 					/*(maven: 'maven_local'){*/
-					bat 'dir'
-					bat 'cd CucumberAuto'
-					bat 'mvn clean install'
+					bat """ 
+					cd /d "CucumberAuto"
+					'dir'
+					'mvn clean install'
+					"""				
 					/*}*/
 /*					stage('Test Stage'){
 
