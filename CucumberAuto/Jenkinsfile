@@ -5,11 +5,10 @@ pipeline{
 			stage('Compile Stage'){
 
 					steps {
-					
 					withMaven(maven: 'maven_local'){
 					sh 'mvn clean install'
 					}
-					stage('Test Stage'){
+/*					stage('Test Stage'){
 
 					steps {
 					
@@ -28,10 +27,10 @@ pipeline{
 					}
 					}
 					}
+					}*/
 					}
 					}
 					}
-					}
-					}			
+					}		
 					
 					
