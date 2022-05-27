@@ -10,6 +10,7 @@ public class PropFileReader {
 
 		private Properties property;
 		private final String propertyFilePath= "configs//config.properties";
+		
 
 		public PropFileReader(){
 			BufferedReader reader;
@@ -52,5 +53,11 @@ public class PropFileReader {
 			String mozillaDriverPath = property.getProperty("mozillaDriverPath");
 			if(mozillaDriverPath != null) return mozillaDriverPath;
 			else throw new RuntimeException("mozillaDriverPath not specified in the Configuration.properties file.");
+		}
+		
+		public String getscreenshotPath() {
+			String screenshotPath = property.getProperty("screenshotPath");
+			if(screenshotPath != null) return screenshotPath;
+			else throw new RuntimeException("screenshotPath not specified in the Configuration.properties file.");
 		}
 }
