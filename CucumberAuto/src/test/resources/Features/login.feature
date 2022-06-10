@@ -2,6 +2,7 @@
 #Keywords Summary :
 Feature: Login page scenario list.
 
+	@SmokeTest
   Scenario Outline: Verify user is able to login using valid credentials.
     Given user is on login page
     When user enters "<username>" and "<password>"

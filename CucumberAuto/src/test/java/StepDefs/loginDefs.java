@@ -39,8 +39,9 @@ public class loginDefs {
 		log.error("TESTING LOG ERROR");
 
 		driver = new ChromeDriver(); 
-//		String baseUrl = "http://localhost:4200/";
-		driver.get(prop.getTestURL());
+		String baseUrl = "https://app.campusorbit.com/auth/login";
+//		driver.get(prop.getTestURL());
+		driver.get(baseUrl);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(prop.getImplicitlyWait(), TimeUnit.SECONDS);
 	}

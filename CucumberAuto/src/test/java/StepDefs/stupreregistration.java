@@ -106,6 +106,6 @@ public class stupreregistration {
 	@When("user selects {string}")
 	public void user_selects(String optionSelect) {
 	    // Write code here that turns the phrase above into concrete actions  
-	}
+}
 
 }
